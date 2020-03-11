@@ -1,7 +1,7 @@
 ### long story short
 > an easy to implement package, that helps you in to debug, when there is no code error but **logical** issues  
 > logs you in runtime what is happening, where and **why**  
-> for every action you get the **event is happening**, **node** is targeting, what **scope of code** was called  
+> for every action you get the **event** is happening, **node** is targeting, what **scope of code** was called  
 > although, side and **hidden** effects, to prevent memory/performance issues  
 > it could be a bit messy but more useful  
 > any time you can stop the handler through [some command] _(TBA)_  
