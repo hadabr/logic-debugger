@@ -72,14 +72,10 @@ export function ldebugger() {
         "webkitfullscreenerror",
         "formdata"
     ];
-    for (const prop in document) {
-        //creates an array of all possible events
-        prop.startsWith("on") ? eventArray.push(prop.substring(2)) : null;
-    }
     eventArray.forEach(eventName =>
         document.addEventListener(eventName, function () {
             console.log("============ log info: ============");
-            console.log("CALLER at line of code [23]");
+            //console.log("CALLER at line of code [23]");
             console.log("EVENT is [" + event.type + "]");
             console.log("current node:");
             console.log(event.target);
