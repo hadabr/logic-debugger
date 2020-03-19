@@ -1,8 +1,7 @@
 ### long story short
-<sub>copy/paste **alpha** 0.5 from here</sub>
+<sub>**alpha** 0.5 id here</sub>
 ```javascript
-import { ldebugger } from
-"https://github.com/hadabr/logic-debugger/blob/7b34954159d1f18bd820f3f68cad641b9c484c69/debugger.js"
+npm i lodebug
 ```
 > an easy to implement package, that helps you in to debug, when there is no code error but **logical** issues  
 > logs you in runtime what is happening, where and **why**  
