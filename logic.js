@@ -73,7 +73,7 @@ let eventArray = [
   ];
   for (const prop in document) {
     //creates an array of all possible events
-    prop.startsWith("on") ? eventArr.push(prop.substring(2)) : null;
+    prop.startsWith("on") ? eventArray.push(prop.substring(2)) : null;
   }
   eventArray.forEach(eventName =>
     document.addEventListener(eventName, function() {
