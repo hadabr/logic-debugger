@@ -78,7 +78,7 @@ let eventArray = [
   eventArray.forEach(eventName =>
     document.addEventListener(eventName, function() {
       console.log("============ log info: ============");
-      console.log("CALLER at line of code [23]");
+      //console.log("CALLER at line of code [23]");
       console.log("EVENT is [" + event.type + "]");
       console.log("current node:");
       console.log(event.target);
