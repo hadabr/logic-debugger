@@ -79,8 +79,8 @@ let eventArray = [
     document.addEventListener(eventName, function() {
       console.log("============ log info: ============");
       console.log("CALLER at line of code [23]");
-      console.log("EVENT is [" + Event.type + "]");
+      console.log("EVENT is [" + event.type + "]");
       console.log("current node:");
-      console.log(Event.target);
+      console.log(event.target);
     })
   );
