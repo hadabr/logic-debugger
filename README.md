@@ -1,5 +1,9 @@
 ### long story short
-[alpha is here](https://github.com/hadabr/logic-debugger/blob/7b34954159d1f18bd820f3f68cad641b9c484c69/debugger.js)
+<sub>copy/paste **alpha** 0.5 from here</sub>
+```javascript
+import { l-debugger } from
+"https://github.com/hadabr/logic-debugger/blob/7b34954159d1f18bd820f3f68cad641b9c484c69/debugger.js"
+```
 > an easy to implement package, that helps you in to debug, when there is no code error but **logical** issues  
 > logs you in runtime what is happening, where and **why**  
 > for every action you get the **event** is happening, **node** is targeting, what **scope of code** was called  
