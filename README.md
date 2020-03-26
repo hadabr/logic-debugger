@@ -1,8 +1,5 @@
 ### long story short
-<sub>**alpha** 0.5 id here</sub>
-```javascript
-npm i lodebug
-```
+
 > an easy to implement package, that helps you in to debug, when there is no code error but **logical** issues  
 > logs you in runtime what is happening, where and **why**  
 > for every action you get the **event** is happening, **node** is targeting, what **scope of code** was called  
